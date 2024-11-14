@@ -8,7 +8,7 @@ const Navbar = () => {
       <ul>
         <li>Home</li>
         <li>About Us</li>
-        <li>Products and services</li>
+        <li>Products and Services</li>
         <li>
           <button className="btn">Contact Us</button>
         </li>

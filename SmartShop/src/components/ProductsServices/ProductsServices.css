@@ -1,0 +1,46 @@
+.ProductsServices {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 90%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.productservice {
+  padding: 6px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.productservice img {
+  display: block;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.caption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 10px;
+  background: rgba(81, 56, 185, 0.506);
+  transition: 1s;
+  opacity: 0;
+  padding-top: 5%;
+}
+
+.productservice:hover .caption {
+  opacity: 1;
+  padding-top: 0;
+}
