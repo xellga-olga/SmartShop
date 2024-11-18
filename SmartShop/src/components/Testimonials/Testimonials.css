@@ -92,3 +92,36 @@
   color: #0f0020;
   font-weight: 600;
 }
+
+@media (max-width: 480px) {
+  .testimonials {
+    padding: 20px 10px;
+    margin: 50px auto;
+  }
+
+  .testimonial {
+    max-width: 100%;
+  }
+
+  .testimonial-text {
+    font-size: 14px;
+  }
+
+  .testimonial-name {
+    font-size: 14px;
+  }
+
+  .testimonial-position {
+    font-size: 12px;
+  }
+
+  .next_btn,
+  .back_btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .stars {
+    font-size: 14px;
+  }
+}

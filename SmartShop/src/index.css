@@ -47,3 +47,21 @@ a {
   background: rgb(73, 43, 123);
   color: white;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn {
+    padding: 14px 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

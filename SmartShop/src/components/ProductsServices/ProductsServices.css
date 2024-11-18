@@ -44,3 +44,14 @@
   opacity: 1;
   padding-top: 0;
 }
+
+@media (max-width: 480px) {
+  .productservice {
+    max-width: 100%;
+  }
+
+  .caption {
+    font-size: 14px;
+    padding-top: 10%;
+  }
+}

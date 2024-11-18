@@ -37,3 +37,44 @@
 .footer-socials a:hover {
   color: #380091;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 15px; 
+  }
+
+  .footer-content {
+    gap: 15px; 
+  }
+
+  .footer-info p {
+    font-size: 13px; 
+  }
+
+  .footer-socials a {
+    font-size: 20px; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 10px;
+  }
+
+  .footer-content {
+    gap: 10px; 
+  }
+
+  .footer-info p {
+    font-size: 12px; 
+  }
+
+  .footer-socials {
+    gap: 10px; 
+  }
+
+  .footer-socials a {
+    font-size: 18px; 
+  }
+}
