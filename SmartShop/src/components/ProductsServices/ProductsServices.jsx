@@ -8,7 +8,7 @@ import productservice_6 from '../../assets/productservice_6.webp'
 
 const ProductsServices = () => {
   return (
-    <div className='ProductsServices'>
+    <div className='ProductsServices' id='products'>
       <div className='productservice'>
          <img src={productservice_1} alt='electronic devices' />
          <div className='caption'>

@@ -6,7 +6,7 @@ import new3 from '../../assets/new3.jpg'
 import arrow from '../../assets/arrow-white.svg'
 
 const News = () => {
-  return <div className="news">
+  return <div className="news" id="news">
     <div className="new">
       <img src={new1} alt=""/>
       <p>New line of Philips TVs 2024</p>

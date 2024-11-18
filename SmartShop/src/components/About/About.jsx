@@ -4,7 +4,7 @@ import about_icon from '../../assets/play-icon.svg'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='about-left'>
          <img src={about_img} alt='About SmartShop' className='about-img'/>
          <img src={about_icon} alt='Play Icon' className='play-icon'/>

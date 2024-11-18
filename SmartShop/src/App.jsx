@@ -1,5 +1,6 @@
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import News from "./components/News/News";
@@ -23,11 +24,9 @@ function App() {
           title="TESTIMONIALS & REVIEWS"
         />
         <Testimonials />
-        <Title
-          subTitle="Contact Us"
-          title="Get in Touch"
-        />
+        <Title subTitle="Contact Us" title="Get in Touch" />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
